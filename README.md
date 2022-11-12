@@ -1,3 +1,4 @@
+![GitHub language count](https://img.shields.io/github/languages/count/janetmu/Sistema-de-Gestion-de-Ingresos-y-Gastos)
 # Sistema-de-Gestion-de-Ingresos-y-Gastos
 Aplicativo web para que un administrador pueda gestionar los ingresos y egresos de su empresa. El sistema permite visualizar los totales de la empresa para que el gerente pueda tomar decisiones sobre la
 situación financiera.
