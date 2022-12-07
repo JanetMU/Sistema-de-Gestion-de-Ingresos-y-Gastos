@@ -45,7 +45,7 @@
       <div class="container mt-5">
         <div class="row justify-content-center">
           <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 py-4 bg-white mt-4">
-            <h4 class="text-center mt-4 mb-4">Sistema de Gestión de Ingresos y Gastos</h4>
+            <h1 class="text-center mt-4 mb-4">Sistema de Gestión de Ingresos y Gastos</h1>
             <div class="py-3">
               <div class="row">
                 <div class="col d-flex justify-content-between">
@@ -59,12 +59,12 @@
                 <table class="table table-info table-striped">
                   <thead>
                   <tr>
-                    <th scope="col">ID transacción</th>
+                    <th scope="col">ID Transacción</th>
                     <th scope="col">Concepto</th>
                     <th scope="col">Monto</th>
                     <th scope="col">Fecha</th>
                     <th scope="col">ID Empleado</th>
-                    <th scope="col">Tipo transacción</th>
+                    <th scope="col">Tipo Transacción</th>
                     <th scope="col">Acciones</th>
                   </tr>
                   </thead>
@@ -83,7 +83,7 @@
 
                       <form th:action="@{/transaction/update/{id}(id=${transactionList.id})}" th:method="get">
                         <button class="btn btn-sm btn-outline-dark" type="submit">Editar</button>
-                      </form>
+
                       <form th:action="@{/transaction/front/{id}(id=${transactionList.id})}" method="get">
                         <button type="submit" class="btn btn-sm btn-outline-dark" >Borrar</button>
                       </form>
